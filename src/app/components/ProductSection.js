@@ -12,7 +12,7 @@ const ProductSection = () => {
           <div className={productStyles.products_content}>
             <div>
             <div className={productStyles.products_image}>
-                <Image src="/sdk.png" width={45} height={45} />
+                <Image src="/sdk.png" alt="sdk" width={45} height={45} />
               </div>
               <p className={productStyles.bold}>
                 Server SDK for fingerprint recognition
@@ -31,7 +31,7 @@ const ProductSection = () => {
             </div>
             <div>
               <div className={productStyles.products_image}>
-                <Image src="/api.png" width={45} height={45} />
+                <Image src="/api.png" alt="api"width={45} height={45} />
               </div>
               <p className={productStyles.bold}>
                 Server SDK for fingerprint recognition
@@ -50,7 +50,7 @@ const ProductSection = () => {
             </div>
             <div>
             <div className={productStyles.products_image}>
-                <Image src="/smartphone.png" width={45} height={45} />
+                <Image src="/smartphone.png" alt="smartphone" width={45} height={45} />
               </div>
               
               <p className={productStyles.bold}>

@@ -14,7 +14,7 @@ const AdvantagesSection = () => {
 
 
             <div className={advantageStyles.advantages_image}>
-                <Image src="/rocket.png" width={45} height={45} />
+                <Image src="/rocket.png" alt="rocketImage"width={45} height={45} />
               </div>
               <p className={advantageStyles.bold}>
               Superior accuracy
@@ -31,7 +31,7 @@ for verification and identification
 
             <div>
               <div className={advantageStyles.advantages_image}>
-                <Image src="/fingerprint-scan.png" width={45} height={45} />
+                <Image src="/fingerprint-scan.png" alt="fingerprintimage" width={45} height={45} />
               </div>
               <p className={advantageStyles.bold}>
               Superior accuracy
@@ -49,7 +49,7 @@ creating templates compatible between each other
             
             <div>
             <div className={advantageStyles.advantages_image}>
-                <Image src="/database.png" width={45} height={45} />
+                <Image src="/database.png" alt="databaseimage" width={45} height={45} />
               </div>
               
               <p className={advantageStyles.bold}>
@@ -77,7 +77,7 @@ regardless of fingerprint or image type
 
 
             <div className={advantageStyles.advantages_image}>
-                <Image src="/flash.png" width={45} height={45} />
+                <Image src="/flash.png" alt="flash image" width={45} height={45} />
               </div>
               <p className={advantageStyles.bold}>
               High matching speed
@@ -94,7 +94,7 @@ matches per 1 s using batch mode or GPU
 
             <div>
               <div className={advantageStyles.advantages_image}>
-                <Image src="/bubbles.png" width={45} height={45} />
+                <Image src="/bubbles.png" alt="bubble image"width={45} height={45} />
               </div>
               <p className={advantageStyles.bold}>
               DPI tolerant technology
@@ -111,7 +111,7 @@ matches per 1 s using batch mode or GPU
             
             <div>
             <div className={advantageStyles.advantages_image}>
-                <Image src="/target.png" width={45} height={45} />
+                <Image src="/target.png" alt="taget image"width={45} height={45} />
               </div>
               
               <p className={advantageStyles.bold}>
