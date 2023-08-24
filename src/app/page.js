@@ -3,6 +3,7 @@ import Section1 from "./components/Herosection";
 import MarketSection from "./components/MarketSection";
 import ProductSection from "./components/ProductSection";
 import AboutSection from "./components/AboutSection";
+import ContactSection from "./components/ContactSection";
 
 const Page = () =>{
   return (
@@ -12,6 +13,7 @@ const Page = () =>{
     <AdvantagesSection />
     <MarketSection />
     <AboutSection />
+    <ContactSection />
     </>
   )
 }

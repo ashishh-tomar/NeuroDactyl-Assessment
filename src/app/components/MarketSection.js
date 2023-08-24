@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const MarketSection = () => {
   return (
-    <main className={marketStyles.main_section}>
+    <main className={marketStyles.main_section} id="markets">
       <div className={styles.container}>
         <h1>Markets</h1>
 

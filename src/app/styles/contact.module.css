@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+
+
+.contact_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.contact_content h1 {
+    text-transform:uppercase;
+    font-size: 4.8rem;
+    color: #000;
+    text-align: center;
+}
+
+
+.contact_content p{
+    font-size: 1.8rem;
+    color: #000;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact_h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact_form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact_label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact_input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .contact_textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  
+  
+  .contact_button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact_button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
+/*waves effect */
+.custom-shape-divider-bottom-1681647578 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1681647578 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1681647578 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .contact_content{
+      order: 1;
+    }
+
+
+    .contact_image{
+        justify-content: center;
+        order: 0;
+    }
+
+    .contact_image img{
+        width: 40%;
+    }
+
+
+    /*!*waves effect *!*/
+    /*.custom-shape-divider-bottom-1681647578 {*/
+    /*   display: none;*/
+    /*}*/
+
+
+}
+

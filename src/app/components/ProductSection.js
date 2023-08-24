@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const ProductSection = () => {
   return (
-    <section className={productStyles.main_section}>
+    <section className={productStyles.main_section} id="product">
       <div className={styles.container}>
         <div>
           <h1>Products</h1>
