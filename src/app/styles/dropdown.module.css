@@ -1,0 +1,33 @@
+
+
+  
+  .dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown_content_link {
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    border: none;
+  }
+  
+  .dropdown_content_link:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .dropdown:hover .dropdown_content {
+    display: block;
+    border: none;
+  }

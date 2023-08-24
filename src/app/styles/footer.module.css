@@ -1,10 +1,15 @@
 
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
 .footer {
     background: linear-gradient(-45deg, #a8e48a, #1eb6d9, #f2d3f7);
     color: #fff;
     text-align: center;
     padding: 20px;
-    position: absolute;
+    position: fixed;
     
     width: 100%;
     

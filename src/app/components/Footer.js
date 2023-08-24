@@ -5,7 +5,8 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <>
+    <div id={footerStyles.page_container}>
+    
     <footer className={footerStyles.footer}>
      <Link href="/">
                 <Image src="/logo.svg" alt="logo" width={100} height={40}/>
@@ -15,7 +16,8 @@ const Footer = () => {
 Address: Georgia, Tbilisi, Nadzaladevi District, Kursebi Street, N15. Identification Number: 400354488
 E-mail us: info@neurodactyl.com</p>
     </footer>
-    </>
+    </div>
+    
   )
 }
 

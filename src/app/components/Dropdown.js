@@ -1,18 +1,21 @@
-import Link from 'next/link'
-import styles from "@/app/styles/navbar.module.css"
+
+import styles from '@/app/styles/dropdown.module.css';
+import Link from 'next/link';
 
 const Dropdown = () => {
+  
   return (
-    <div className='dropdown'>
-        <button className='dropbtn'>Products</button>
-        <div className='dropdown-content'>
-            <Link className={styles.navbarLink} href='/'>Server SDK for Fingerprint Recognition</Link>
-            <Link className={styles.navbarLink} href='/'>Server Platform for Fingerprint Recognition</Link>
-            <Link className={styles.navbarLink} href='/'>Mobile SDK for touchless Fingerprint Capture</Link>
-        </div>
-
-    </div>
+    <>
+      <div className={styles.dropdown}> 
+      <button className={styles.dropbtn}>Products</button>
+      <div className={styles.dropdown_content}>
+        <Link className={styles.dropdown_content_link} href="/serversdk">Server SDK</Link>
+        <Link className={styles.dropdown_content_link} href="serverplatform">Server Platform</Link>
+        <Link className={styles.dropdown_content_link} href="mobilesdk">Mobile SDK</Link>
+      </div>
+      </div>
+    </>
   )
-}
+};
 
-export default Dropdown
+export default Dropdown;
