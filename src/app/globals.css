@@ -96,6 +96,11 @@ button {
     /*letter-spacing: -0.1rem;*/
 }
 
+products-container{
+    display: flex;
+    flex-direction: column;
+}
+
 button:hover {
     background-color: #fff;
     border: .1rem solid #161617;
