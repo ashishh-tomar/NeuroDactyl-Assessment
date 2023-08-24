@@ -7,34 +7,34 @@ const Nav = () => {
         <div>
             <ul className={styles.navbarList}>
                 <li className={styles.navbarItem}>
-                    <Link className={styles.navbarLink} href='/'>Products</Link>
+                    <Link className={styles.navbarLink} href='/products'>Products</Link>
                 </li>
 
                 <li className={styles.navbarItem}>
-                    <Link className={styles.navbarLink} href='/'>Solutions</Link>
-                </li>
-
-
-                <li className={styles.navbarItem}>
-                    <Link className={styles.navbarLink} href='/'>Advantages</Link>
+                    <Link className={styles.navbarLink} href='/solution'>Solutions</Link>
                 </li>
 
 
                 <li className={styles.navbarItem}>
-                    <Link className={styles.navbarLink} href='/'>Markets</Link>
+                    <Link className={styles.navbarLink} href='/advantages'>Advantages</Link>
                 </li>
 
 
                 <li className={styles.navbarItem}>
-                    <Link className={styles.navbarLink} href='/'>News</Link>
+                    <Link className={styles.navbarLink} href='/markets'>Markets</Link>
+                </li>
+
+
+                <li className={styles.navbarItem}>
+                    <Link className={styles.navbarLink} href='/news'>News</Link>
                 </li>
 
                 <li className={styles.navbarItem}>
-                    <Link className={styles.navbarLink} href='/'>About Us</Link>
+                    <Link className={styles.navbarLink} href='/about'>About Us</Link>
                 </li>
 
                 <li className={styles.navbarItem}>
-                    <Link className={styles.navbarLink} href='/'>Contacts</Link>
+                    <Link className={styles.navbarLink} href='/contacts'>Contacts</Link>
                 </li>
             </ul>
         </div>

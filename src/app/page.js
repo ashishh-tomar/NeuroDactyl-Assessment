@@ -1,6 +1,8 @@
+import Section1 from "./components/Herosection";
+
 const Page = () =>{
   return (
-    <h1>Hello</h1>
+    <Section1 />
   )
 }
 

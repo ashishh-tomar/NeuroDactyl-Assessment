@@ -32,7 +32,7 @@
     color: #000;
 }
 
-.hero_content p{
+.hero_content ul{
     margin: 2rem 0 4rem 0;
     font-weight: 300;
     letter-spacing: .05rem;
